@@ -1,0 +1,1 @@
+select from_itime(itime) as itime, `devid`, `subtype`, `user`, `msg` from $log where $filter
